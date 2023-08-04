@@ -25,7 +25,7 @@
 
 
 			<audio id="song">
-				<source src="A:\html & css_Sublime-Text\Music Player\images\Aatish _ Chaudhry _ Laaj Productions _ Hum Films _ Amna Ilyas _ Sunidhi Chauhan _ Ali Quli Mirza(M4A_128K).m4a" type="audio/mpeg">
+				<source src="images\Aatish _ Chaudhry _ Laaj Productions _ Hum Films _ Amna Ilyas _ Sunidhi Chauhan _ Ali Quli Mirza(M4A_128K).m4a" type="audio/mpeg">
 			</audio>
 			<input type="range" value="0" id="progress">
 
@@ -40,51 +40,7 @@
 		</div>
 	</div>
 
-		<!-- <script>
-			
-			let progress = document.getElementById("progress");
-			let song = document.getElementById("song");
-			let ctrlIcon = document.getElementById("ctrlIcon");
-
-
-				song.onloadedmetadata = function(){
-					progress.max = song.duration;
-					// progress.value = song.duration;
-					progress.value = song.currentTime;
-
-				}
-
-
-				function playPause(){
-					if(ctrlIcon.classList.contains("fa-pause")){
-						song.pause();
-						ctrlIcon.classList.remove("fa-pause");
-						ctrlIcon.classList.add("fa-play");
-					}
-				
-					else{
-						song.play();
-						ctrlIcon.classList.add("fa-pause");
-						ctrlIcon.classList.remove("fa-play);
-					}
-				}
-
-				if(song.play()){
-					setInterval(()=>{
-						progress.value = song.currentTime;
-					},500);
-				}
-
-
-		progress.onchange = function(){
-			song.play();
-			song.currentTime = progress.value;
-			ctrlIcon.classList.add("fa-pause");
-			ctrlIcon.classList.remove("fa-play");
-		}
-
-		</script>
- -->
+		
 		<script src="index.js"></script>
 
 </body>

@@ -42,7 +42,7 @@ nav .circle{
 	border: 8px solid #fff;
 	box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
 }
->music-player{
+.music-player{
 	font-size: 20px;
 	font-weight: 400px;
 	color: #333;
